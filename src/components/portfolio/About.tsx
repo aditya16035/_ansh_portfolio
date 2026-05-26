@@ -5,7 +5,7 @@ import { Section, SectionHeader } from "./Section";
 const stats = [
   { icon: Code, label: "Projects Completed", value: "10+" },
   { icon: Lightbulb, label: "Technologies Learned", value: "20+" },
-  { icon: Trophy, label: "Problem Solving", value: "500+" },
+  { icon: Trophy, label: "Problem Solving", value: "100+" },
   { icon: Briefcase, label: "Internship Experience", value: "1" },
 ];
 

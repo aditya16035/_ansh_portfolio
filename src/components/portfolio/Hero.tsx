@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import { Download, Mail, ArrowRight, Github, Linkedin, Sparkles } from "lucide-react";
+import { Download, Mail, ArrowRight, Linkedin, Sparkles } from "lucide-react";
 import avatar from "@/assets/ansh-character.png";
 
 const floatingIcons = [
@@ -99,8 +99,8 @@ export function Hero() {
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </a>
             <a
-              href="/resume.pdf"
-              download
+              href="/ATS_CV_ansh.docx"
+              download="ATS_CV_ansh.docx"
               className="inline-flex items-center gap-2 rounded-xl glass px-6 py-3 text-sm font-semibold hover:border-glow"
             >
               <Download className="h-4 w-4" /> Download Resume
@@ -121,9 +121,6 @@ export function Hero() {
           >
             <a href="https://linkedin.com/in/ansh-sharma-53b35a411" target="_blank" rel="noopener" aria-label="LinkedIn" className="grid h-10 w-10 place-items-center rounded-full glass transition-all hover:border-glow hover:text-primary">
               <Linkedin className="h-4 w-4" />
-            </a>
-            <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub" className="grid h-10 w-10 place-items-center rounded-full glass transition-all hover:border-glow hover:text-primary">
-              <Github className="h-4 w-4" />
             </a>
             <a href="mailto:anshisabest111@gmail.com" aria-label="Email" className="grid h-10 w-10 place-items-center rounded-full glass transition-all hover:border-glow hover:text-primary">
               <Mail className="h-4 w-4" />

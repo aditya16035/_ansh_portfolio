@@ -18,7 +18,7 @@ const technical = [
   { name: "OpenCV", level: 62 },
   { name: "Neural Networks", level: 66 },
   { name: "DBMS", level: 72 },
-  { name: "Git / GitHub", level: 78 },
+  { name: "Git", level: 78 },
 ];
 
 const soft = ["Communication", "Teamwork", "Leadership", "Critical Thinking", "Adaptability", "Collaboration", "Time Management", "Quick Learning"];

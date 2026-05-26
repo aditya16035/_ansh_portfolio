@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { Section, SectionHeader } from "./Section";
-import { Mail, Phone, MapPin, Linkedin, Github, Send, Loader2 } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Send, Loader2 } from "lucide-react";
 import { toast } from "sonner";
 import { z } from "zod";
 
@@ -91,9 +91,6 @@ export function Contact() {
           <div className="flex gap-3 pt-2">
             <a href="https://linkedin.com/in/ansh-sharma-53b35a411" target="_blank" rel="noopener" className="grid h-12 w-12 place-items-center rounded-xl glass transition-all hover:border-glow hover:text-primary">
               <Linkedin className="h-5 w-5" />
-            </a>
-            <a href="https://github.com" target="_blank" rel="noopener" className="grid h-12 w-12 place-items-center rounded-xl glass transition-all hover:border-glow hover:text-primary">
-              <Github className="h-5 w-5" />
             </a>
             <a href="mailto:anshisabest111@gmail.com" className="grid h-12 w-12 place-items-center rounded-xl glass transition-all hover:border-glow hover:text-primary">
               <Mail className="h-5 w-5" />
